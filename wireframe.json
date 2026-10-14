@@ -1,0 +1,302 @@
+{
+  "version": 4,
+  "app_title": "Social Media Agency Website Plan",
+  "nav": {
+    "placement": "none",
+    "items": []
+  },
+  "pages": [
+    {
+      "id": "page-5db962d0",
+      "name": "Agency website",
+      "route": "/",
+      "item_ref": {
+        "index": 1,
+        "text": "Build the complete responsive public website with sticky navigation, animated hero, platforms, problems and solution, tabbed services, process, portfolio, industries, benefits, comparisons, demo-labelled testimonials, FAQs, final CTA, footer, theme toggle and WhatsApp links."
+      },
+      "blocks": [
+        {
+          "id": "nav",
+          "type": "nav",
+          "label": "Sticky navigation",
+          "hint": "Brand, section links, theme toggle, CTA; mobile slide-in menu",
+          "x": 0,
+          "y": 0,
+          "w": 12,
+          "h": 1,
+          "item_ref": {
+            "index": 1,
+            "text": "Build the complete responsive public website with sticky navigation, animated hero, platforms, problems and solution, tabbed services, process, portfolio, industries, benefits, comparisons, demo-labelled testimonials, FAQs, final CTA, footer, theme toggle and WhatsApp links."
+          },
+          "type_source": "palette"
+        },
+        {
+          "id": "hero",
+          "type": "hero",
+          "label": "Editorial split hero",
+          "hint": "Headline, CTAs, value points and social-feed composition",
+          "x": 0,
+          "y": 1,
+          "w": 12,
+          "h": 5,
+          "item_ref": {
+            "index": 1,
+            "text": "Build the complete responsive public website with sticky navigation, animated hero, platforms, problems and solution, tabbed services, process, portfolio, industries, benefits, comparisons, demo-labelled testimonials, FAQs, final CTA, footer, theme toggle and WhatsApp links."
+          },
+          "type_source": "palette"
+        },
+        {
+          "id": "platforms-problem",
+          "type": "text",
+          "label": "Platforms and problem/solution",
+          "hint": "Platform tiles, pain points and dark solution card",
+          "x": 0,
+          "y": 6,
+          "w": 12,
+          "h": 4,
+          "item_ref": {
+            "index": 1,
+            "text": "Build the complete responsive public website with sticky navigation, animated hero, platforms, problems and solution, tabbed services, process, portfolio, industries, benefits, comparisons, demo-labelled testimonials, FAQs, final CTA, footer, theme toggle and WhatsApp links."
+          },
+          "type_source": "palette"
+        },
+        {
+          "id": "services",
+          "type": "tabs",
+          "label": "Service categories",
+          "hint": "Five selectable categories with service cards",
+          "x": 0,
+          "y": 10,
+          "w": 12,
+          "h": 4,
+          "item_ref": {
+            "index": 1,
+            "text": "Build the complete responsive public website with sticky navigation, animated hero, platforms, problems and solution, tabbed services, process, portfolio, industries, benefits, comparisons, demo-labelled testimonials, FAQs, final CTA, footer, theme toggle and WhatsApp links."
+          },
+          "type_source": "palette"
+        },
+        {
+          "id": "steps",
+          "type": "timeline",
+          "label": "How it works",
+          "hint": "Four-step timeline",
+          "x": 0,
+          "y": 14,
+          "w": 12,
+          "h": 3,
+          "item_ref": {
+            "index": 1,
+            "text": "Build the complete responsive public website with sticky navigation, animated hero, platforms, problems and solution, tabbed services, process, portfolio, industries, benefits, comparisons, demo-labelled testimonials, FAQs, final CTA, footer, theme toggle and WhatsApp links."
+          },
+          "type_source": "palette"
+        },
+        {
+          "id": "work",
+          "type": "card_grid",
+          "label": "Work and industries",
+          "hint": "Filtered demo-labelled work and industry chips",
+          "x": 0,
+          "y": 17,
+          "w": 12,
+          "h": 4,
+          "item_ref": {
+            "index": 1,
+            "text": "Build the complete responsive public website with sticky navigation, animated hero, platforms, problems and solution, tabbed services, process, portfolio, industries, benefits, comparisons, demo-labelled testimonials, FAQs, final CTA, footer, theme toggle and WhatsApp links."
+          },
+          "type_source": "palette"
+        },
+        {
+          "id": "proof",
+          "type": "card_grid",
+          "label": "Why us, comparisons and reviews",
+          "hint": "Benefits, before/after and demo-labelled reviews",
+          "x": 0,
+          "y": 21,
+          "w": 12,
+          "h": 4,
+          "item_ref": {
+            "index": 1,
+            "text": "Build the complete responsive public website with sticky navigation, animated hero, platforms, problems and solution, tabbed services, process, portfolio, industries, benefits, comparisons, demo-labelled testimonials, FAQs, final CTA, footer, theme toggle and WhatsApp links."
+          },
+          "type_source": "palette"
+        },
+        {
+          "id": "faq",
+          "type": "text",
+          "label": "FAQs",
+          "hint": "Accessible answers to common questions",
+          "x": 0,
+          "y": 25,
+          "w": 12,
+          "h": 4,
+          "item_ref": {
+            "index": 1,
+            "text": "Build the complete responsive public website with sticky navigation, animated hero, platforms, problems and solution, tabbed services, process, portfolio, industries, benefits, comparisons, demo-labelled testimonials, FAQs, final CTA, footer, theme toggle and WhatsApp links."
+          },
+          "type_source": "palette"
+        },
+        {
+          "id": "footer",
+          "type": "footer",
+          "label": "Final CTA and footer",
+          "hint": "Plan and WhatsApp actions, links and contact details",
+          "x": 0,
+          "y": 29,
+          "w": 12,
+          "h": 3,
+          "item_ref": {
+            "index": 1,
+            "text": "Build the complete responsive public website with sticky navigation, animated hero, platforms, problems and solution, tabbed services, process, portfolio, industries, benefits, comparisons, demo-labelled testimonials, FAQs, final CTA, footer, theme toggle and WhatsApp links."
+          },
+          "type_source": "palette"
+        }
+      ],
+      "deleted_ids": []
+    },
+    {
+      "id": "page-2d480a59",
+      "name": "Pricing and checkout",
+      "route": "/#plans",
+      "item_ref": {
+        "index": 2,
+        "text": "Build editable INR pricing with duration selection and highlighted Standard plan, custom-plan enquiry, and a secure Razorpay checkout with backend-priced orders, payment verification, retry/cancellation, and success/failure views."
+      },
+      "blocks": [
+        {
+          "id": "duration",
+          "type": "tabs",
+          "label": "Duration switcher",
+          "hint": "Monthly, six months and one year",
+          "x": 0,
+          "y": 0,
+          "w": 12,
+          "h": 1,
+          "item_ref": {
+            "index": 2,
+            "text": "Build editable INR pricing with duration selection and highlighted Standard plan, custom-plan enquiry, and a secure Razorpay checkout with backend-priced orders, payment verification, retry/cancellation, and success/failure views."
+          },
+          "type_source": "palette"
+        },
+        {
+          "id": "pricing",
+          "type": "card_grid",
+          "label": "Pricing plans",
+          "hint": "Three detailed plan cards with prominent Standard option",
+          "x": 0,
+          "y": 1,
+          "w": 12,
+          "h": 5,
+          "item_ref": {
+            "index": 2,
+            "text": "Build editable INR pricing with duration selection and highlighted Standard plan, custom-plan enquiry, and a secure Razorpay checkout with backend-priced orders, payment verification, retry/cancellation, and success/failure views."
+          },
+          "type_source": "palette"
+        },
+        {
+          "id": "custom",
+          "type": "form",
+          "label": "Custom plan enquiry",
+          "hint": "Detailed requirements and contact information",
+          "x": 0,
+          "y": 6,
+          "w": 12,
+          "h": 4,
+          "item_ref": {
+            "index": 2,
+            "text": "Build editable INR pricing with duration selection and highlighted Standard plan, custom-plan enquiry, and a secure Razorpay checkout with backend-priced orders, payment verification, retry/cancellation, and success/failure views."
+          },
+          "type_source": "palette"
+        },
+        {
+          "id": "checkout",
+          "type": "form",
+          "label": "Checkout",
+          "hint": "Selected plan summary, contact fields and payment action",
+          "x": 0,
+          "y": 10,
+          "w": 12,
+          "h": 4,
+          "item_ref": {
+            "index": 2,
+            "text": "Build editable INR pricing with duration selection and highlighted Standard plan, custom-plan enquiry, and a secure Razorpay checkout with backend-priced orders, payment verification, retry/cancellation, and success/failure views."
+          },
+          "type_source": "palette"
+        },
+        {
+          "id": "payment-result",
+          "type": "card_grid",
+          "label": "Payment result",
+          "hint": "Confirmation and safe retry views",
+          "x": 0,
+          "y": 14,
+          "w": 12,
+          "h": 3,
+          "item_ref": {
+            "index": 2,
+            "text": "Build editable INR pricing with duration selection and highlighted Standard plan, custom-plan enquiry, and a secure Razorpay checkout with backend-priced orders, payment verification, retry/cancellation, and success/failure views."
+          },
+          "type_source": "palette"
+        }
+      ],
+      "deleted_ids": []
+    },
+    {
+      "id": "page-fa60ef28",
+      "name": "Contact and legal",
+      "route": "/#contact",
+      "item_ref": {
+        "index": 3,
+        "text": "Complete contact enquiry storage and accessible forms, legal pages, SEO metadata and sitemap/robots support; validate the finished mobile and desktop experience and fix rendering issues."
+      },
+      "blocks": [
+        {
+          "id": "contact-form",
+          "type": "form",
+          "label": "Contact form",
+          "hint": "Contact details, enquiry fields and confirmation",
+          "x": 0,
+          "y": 0,
+          "w": 7,
+          "h": 4,
+          "item_ref": {
+            "index": 3,
+            "text": "Complete contact enquiry storage and accessible forms, legal pages, SEO metadata and sitemap/robots support; validate the finished mobile and desktop experience and fix rendering issues."
+          },
+          "type_source": "palette"
+        },
+        {
+          "id": "contact-channels",
+          "type": "card_grid",
+          "label": "Contact channels",
+          "hint": "Phone, WhatsApp, email, address and social links",
+          "x": 7,
+          "y": 0,
+          "w": 5,
+          "h": 4,
+          "item_ref": {
+            "index": 3,
+            "text": "Complete contact enquiry storage and accessible forms, legal pages, SEO metadata and sitemap/robots support; validate the finished mobile and desktop experience and fix rendering issues."
+          },
+          "type_source": "palette"
+        },
+        {
+          "id": "legal",
+          "type": "text",
+          "label": "Legal policies",
+          "hint": "Privacy, terms, and refund/cancellation pages",
+          "x": 0,
+          "y": 4,
+          "w": 12,
+          "h": 4,
+          "item_ref": {
+            "index": 3,
+            "text": "Complete contact enquiry storage and accessible forms, legal pages, SEO metadata and sitemap/robots support; validate the finished mobile and desktop experience and fix rendering issues."
+          },
+          "type_source": "palette"
+        }
+      ],
+      "deleted_ids": []
+    }
+  ],
+  "attached_to_plan": false
+}

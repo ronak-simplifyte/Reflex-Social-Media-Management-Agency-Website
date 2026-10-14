@@ -1,0 +1,5 @@
+## Social Media Agency Website Plan
+- [x] Set up a database to store contact leads, custom-plan enquiries, orders and payment attempts; establish the mobile-first cream, forest-green and muted-gold editorial design direction and centralized editable site content.
+- [x] Build the complete responsive public website with sticky navigation, animated hero, platforms, problems and solution, tabbed services, process, portfolio, industries, benefits, comparisons, demo-labelled testimonials, FAQs, final CTA, footer, theme toggle and WhatsApp links.
+- [x] Build editable INR pricing with duration selection and highlighted Standard plan, custom-plan enquiry, and a secure Razorpay checkout with backend-priced orders, payment verification, retry/cancellation, and success/failure views.
+- [x] Complete contact enquiry storage and accessible forms, legal pages, SEO metadata and sitemap/robots support; validate the finished mobile and desktop experience and fix rendering issues.

@@ -1,0 +1,26 @@
+@keyframes atelier-enter { from { opacity: 0; transform: translateY(14px); } to { opacity: 1; transform: translateY(0); } }
+@keyframes atelier-float { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-6px); } }
+@keyframes atelier-drawer { from { transform: translateX(100%); } to { transform: translateX(0); } }
+.hero-enter { animation: atelier-enter .7s ease-out both; }
+.hero-enter-late { animation: atelier-enter .85s ease-out both; }
+.floating-mark { animation: atelier-float 6s ease-in-out infinite; }
+.floating-mark-delayed { animation: atelier-float 7s ease-in-out -3s infinite; }
+.mobile-drawer[data-state="open"] { animation: atelier-drawer .25s ease-out; }
+html { scroll-behavior: smooth; scroll-padding-top: 100px; }
+body { margin: 0; }
+.atelier { --paper: #F7F2E7; --surface: #EEE5D3; --ink: #17231D; --muted: #4E5C4D; --primary: #153B2B; --on-primary: #F7F2E7; --display: #79602C; --line: #D9CFBB; color-scheme: light; }
+.atelier[data-theme="dark"] { --paper: #0C2A20; --surface: #153B2B; --ink: #F7F2E7; --muted: #D8D0BD; --primary: #D7BE82; --on-primary: #0C2A20; --display: #D7BE82; --line: #355547; color-scheme: dark; }
+html:has(.atelier[data-theme="dark"]) { background: #0C2A20; }
+.mobile-drawer { --paper: #F7F2E7; --ink: #17231D; --muted: #4E5C4D; --line: #D9CFBB; --primary: #153B2B; --on-primary: #F7F2E7; }
+body:has(.atelier[data-theme="dark"]) .mobile-drawer { --paper: #0C2A20; --ink: #F7F2E7; --muted: #D8D0BD; --line: #355547; --primary: #D7BE82; --on-primary: #0C2A20; color-scheme: dark; }
+.atelier *, .mobile-drawer * { box-sizing: border-box; }
+.atelier :is(a, button, summary, input, textarea, select, [tabindex]):focus-visible, .mobile-drawer :is(a, button, input, textarea, select):focus-visible { outline: 3px solid #B79245; outline-offset: 4px; }
+.atelier :is(section, footer, main)[id] { scroll-margin-top: 100px; }
+.atelier summary::-webkit-details-marker { display: none; }
+.atelier details[open] summary .faq-plus { transform: rotate(45deg); }
+.atelier ::selection { background: #D7BE82; color: #0C2A20; }
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  .hero-enter, .hero-enter-late, .floating-mark, .floating-mark-delayed, .mobile-drawer[data-state="open"] { animation: none; }
+  .atelier *, .mobile-drawer * { transition-duration: 0s !important; }
+}
